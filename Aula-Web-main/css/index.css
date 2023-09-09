@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #d96af0;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.navegation {
+  background-color: #675ab1;
+  color: #986bc2;
+  font-size: 3rem;
+  font-weight: 600;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.navegation:hover {
+  background-color: #f72585;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 10px; 
+}
+
