@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Marcia ",
+      "email": "mswlala@gmail.com",
+      "telefone": "7188223636",
+      "password": "aaa3458",
+      "id": 2
+    },
+    {
+      "name": "Yuri ",
+      "email": "yuri231322@gmail.com",
+      "telefone": "71999110244",
+      "password": "8%44@@",
+      "id": 3
+    },
+    {
+      "name": "Ty Acrom",
+      "email": "tyiumqe@yahoo.com.br",
+      "telefone": "81994335677",
+      "password": "yetodes",
+      "id": 4
+    },
+    {
+      "name": "Nino Gonzales",
+      "email": "nino-g@gmail.com",
+      "telefone": "123 9450122",
+      "password": "125//*",
+      "id": 5
+    }
+  ]
+}

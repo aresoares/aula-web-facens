@@ -1,0 +1,93 @@
+.formCreate {
+  display: flex;
+  flex-direction: column;
+  background-color: #4b6cb7;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  text-align: center;
+}
+
+.formCreate h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #dbe6fd;
+  margin-bottom: 20px; 
+}
+
+.formCreate p {
+  font-size: 1.2em;
+  color: #dbe6fd;
+  margin-bottom: 20px;
+}
+
+.formCreate input {
+  padding: 15px;
+  font-size: 1.1em;
+  border: 1px solid #3a539b; 
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.formCreate input:focus {
+  border: 1px solid #3a539b;
+  box-shadow: 0px 0px 8px rgba(58, 83, 155, 0.6); 
+}
+
+.formCreate label {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #dbe6fd;
+}
+
+.formCreate a {
+  font-size: 1em;
+  color: #dbe6fd;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.formCreate a:hover {
+  color: #3a539b; 
+}
+
+.btn {
+  background-color: #3a539b; 
+  color: #dbe6fd;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #2c3e50; 
+
+@media (max-width: 500px) {
+  .formCreate {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .formCreate h1 {
+    font-size: 2em;
+  }
+
+  .formCreate p {
+    font-size: 1em;
+  }
+
+  .formCreate input {
+    font-size: 1em;
+  }
+}
+
+}
